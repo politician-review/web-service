@@ -317,6 +317,7 @@ ul.colors li:hover p {
     background: #6a7686;
     position: relative;
     z-index: 10000;
+    height: 70px;
 }
 
 .menu_fixed {
@@ -340,13 +341,13 @@ ul.colors li:hover p {
 .prs_navi_right_main_wrapper {
     float: left;
     width: 45%;
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 .prs_logo_main_wrapper {
     float: left;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     position: relative;
     z-index: 1;
 }
@@ -566,7 +567,7 @@ a.navbar-brand img {
     color: #ffffff;
     font-weight: 500;
     position: relative;
-    padding: 42px 10px;
+    padding: 27px 10px;
     text-transform: uppercase;
 }
 
@@ -8302,7 +8303,7 @@ body.active #mobile-nav {
     float: left;
     width: calc(100% - 60px);
     padding: 0px 10px;
-    height: 100px;
+    height: 70px;
     border: 1px solid #e1e1e1;
     border-right: 0px;
     font-size: 20px;
@@ -8311,7 +8312,7 @@ body.active #mobile-nav {
 
 .gc_search_box button {
     width: 60px;
-    height: 100px;
+    height: 70px;
     color: #000000;
     border: 1px solid #e1e1e1;
     border-left: none;
