@@ -6,7 +6,7 @@
     <div class="prs_navigation_main_wrapper">
         <div class="container-fluid">
             <div id="search_open" class="gc_search_box">
-                <input type="text" placeholder="Search here">
+                <input type="text" placeholder="검색어를 입력해주세요">
                 <button><i class="fa fa-search" aria-hidden="true"></i>
                 </button>
             </div>
@@ -22,6 +22,11 @@
                             <button class="dl-trigger">
                                 <img th:src="@{/assets/images/header/bars.png}" alt="bar_png">
                             </button>
+                            <div class="prs_mobail_searchbar_wrapper" style="margin-left: 20px;" id="login_button"
+                                 data-text="로그인"
+                                 data-toggle="modal"
+                                 data-target="#myModal"><i class="fa fa-sign-in fa-lg"></i>
+                            </div>
                             <div class="prs_mobail_searchbar_wrapper" id="search_button"><i class="fa fa-search"></i>
                             </div>
                             <div class="clearfix"></div>
@@ -57,7 +62,7 @@
                         <select>
                             <option>게시글</option>
                             <option>정치인</option>
-                            <option>작정자</option>
+                            <option>작성자</option>
                             <option>지역구</option>
                         </select>
                         <input type="text" placeholder="검색어를 입력해주세요">

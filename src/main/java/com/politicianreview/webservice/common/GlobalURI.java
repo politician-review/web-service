@@ -15,4 +15,6 @@ public class GlobalURI {
     public static final String ERROR_URI_404 = ERROR_URI_ROOT + "/404";
     public static final String ERROR_URI_500 = ERROR_URI_ROOT + "/500";
     public static final String ERROR_URI_ETC = ERROR_URI_ROOT + "/error";
+
+    public static final String POLITICIAN_ROOT_URI = ROOT_URI + "politician";
 }

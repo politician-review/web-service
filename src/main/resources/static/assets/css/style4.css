@@ -340,7 +340,7 @@ ul.colors li:hover p {
 .prs_navi_right_main_wrapper {
     float: left;
     width: 45%;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .prs_logo_main_wrapper {
@@ -1201,11 +1201,11 @@ a.navbar-brand img {
 }
 
 .nice-select {
-    height: 50px;
+    height: 40px;
     border: 0;
     border-radius: 0;
     background: #f6f6f6;
-    line-height: 50px;
+    line-height: 40px;
     -webkit-border-top-left-radius: 10px;
     -moz-border-top-left-radius: 10px;
     border-top-left-radius: 10px;
@@ -1217,7 +1217,7 @@ a.navbar-brand img {
 .product-heading .con input {
     float: left;
     width: calc(300px - 50px);
-    height: 50px;
+    height: 40px;
     background: #ffffff;
     padding-left: 20px;
     padding-right: 20px;
@@ -1226,10 +1226,10 @@ a.navbar-brand img {
 
 .product-heading .con button {
     width: 50px;
-    height: 50px;
+    height: 40px;
     float: left;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     background: #1b1b1b;
     border: 0;
     color: #ffffff;
@@ -1294,6 +1294,7 @@ a.navbar-brand img {
     overflow: hidden;
     color: #7986cb;
     min-width: 180px;
+    height: 40px;
 }
 
 .prs_animate_btn1 .button--tamaya.button--inverted {
@@ -1313,11 +1314,6 @@ a.navbar-brand img {
     transition: transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
     transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-}
-
-.prs_animate_btn1 .button--tamaya:hover::before,
-.prs_animate_btn1 .button--tamaya:hover::after {
-    overflow: hidden;
 }
 
 .prs_animate_btn1 .button--tamaya.button--inverted::before,
@@ -1345,17 +1341,6 @@ a.navbar-brand img {
     transition: transform 0.3s, opacity 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
     transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-}
-
-.prs_animate_btn1 .button--tamaya:hover::before {
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-
-}
-
-.prs_animate_btn1 .button--tamaya:hover::after {
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
 }
 
 .prs_animate_btn1 .button--tamaya:hover > span {
@@ -8133,7 +8118,6 @@ body.active #mobile-nav {
 
 .st_pop_form_wrapper .modal-content {
     padding: 30px;
-    float: left;
 }
 
 .st_pop_form_heading_wrapper {
