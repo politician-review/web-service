@@ -10545,9 +10545,13 @@ i:before {
     color: rgba(0, 0, 0, 0.87);
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-weight: 600;
     float: left;
     width: 100%;
+    font-weight: 600;
+}
+
+.st_dtts_ineer_box li span {
+    font-weight: 500;
 }
 
 .st_dtts_ineer_box li {
