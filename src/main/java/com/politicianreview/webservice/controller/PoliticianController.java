@@ -9,7 +9,12 @@ import org.springframework.web.servlet.ModelAndView;
 public class PoliticianController {
 
     @GetMapping(GlobalURI.POLITICIAN_ROOT_URI)
-    public ModelAndView rootRedirect() {
+    public ModelAndView detailView() {
         return new ModelAndView("main/politician-detail");
+    }
+
+    @GetMapping(GlobalURI.POLITICIAN_LIST)
+    public ModelAndView listView() {
+        return new ModelAndView("main/politician-list");
     }
 }

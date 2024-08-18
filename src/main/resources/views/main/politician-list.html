@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www/thymeleaf.org" th:replace="base/mainLayout :: mainLayout('우리들의 정치인 평가하기 - 우평')">
+
+<!-- Start Content-->
+<div class="container-fluid" th:fragment="content">
+    <!-- prs gallery wrapper Start -->
+    <div class="prs_gallery_main_section_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="prs_heading_section_wrapper">
+                        <h2>정치인 목록</h2>
+                    </div>
+                </div>
+                <div class="portfolio-area ptb-100">
+                    <div class="container">
+                        <div class="row three-column">
+                            <div id="gridWrapper" class="clearfix">
+                                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper III_column"
+                                     data-groups='["all", "website", "logo"]'>
+                                    <div class="portfolio-thumb">
+                                        <div class=" prs_ms_scene_slider_img">
+                                            <img th:src="@{/assets/images/content/gallery/g1.jpg}"
+                                                 class="zoom image img-responsive" alt="service_img"/>
+                                        </div>
+                                    </div>
+                                    <!-- /.portfolio-thumb -->
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper III_column"
+                                     data-groups='["all", "business", "website", "photoshop"]'>
+                                    <div class="portfolio-thumb">
+                                        <div class=" prs_ms_scene_slider_img">
+                                            <img th:src="@{/assets/images/content/gallery/g2.jpg}"
+                                                 class="zoom image img-responsive" alt="service_img"/>
+                                        </div>
+                                    </div>
+                                    <!-- /.portfolio-thumb -->
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper III_column"
+                                     data-groups='["all", "logo", "photoshop"]'>
+                                    <div class="portfolio-thumb">
+                                        <div class=" prs_ms_scene_slider_img">
+                                            <img th:src="@{/assets/images/content/gallery/g3.jpg}"
+                                                 class="zoom image img-responsive" alt="service_img"/>
+                                        </div>
+                                    </div>
+                                    <!-- /.portfolio-thumb -->
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper III_column"
+                                     data-groups='["all", "logo", "website", "business"]'>
+                                    <div class="portfolio-thumb">
+                                        <div class=" prs_ms_scene_slider_img">
+                                            <img th:src="@{/assets/images/content/gallery/g4.jpg}"
+                                                 class="zoom image img-responsive" alt="service_img"/>
+                                        </div>
+                                    </div>
+                                    <!-- /.portfolio-thumb -->
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper III_column"
+                                     data-groups='["all", "business", "website", "photoshop"]'>
+                                    <div class="portfolio-thumb">
+                                        <div class=" prs_ms_scene_slider_img">
+                                            <img th:src="@{/assets/images/content/gallery/g5.jpg}"
+                                                 class="zoom image img-responsive" alt="service_img"/>
+                                        </div>
+                                    </div>
+                                    <!-- /.portfolio-thumb -->
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper III_column"
+                                     data-groups='["all", "business", "website", "logo"]'>
+                                    <div class="portfolio-thumb">
+                                        <div class=" prs_ms_scene_slider_img">
+                                            <img th:src="@{/assets/images/content/gallery/g6.jpg}"
+                                                 class="zoom image img-responsive" alt="service_img"/>
+                                        </div>
+                                    </div>
+                                    <!-- /.portfolio-thumb -->
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper III_column"
+                                     data-groups='["all", "business", "website", "logo"]'>
+                                    <div class="portfolio-thumb">
+                                        <div class=" prs_ms_scene_slider_img">
+                                            <img th:src="@{/assets/images/content/gallery/g7.jpg}"
+                                                 class="zoom image img-responsive" alt="service_img"/>
+                                        </div>
+                                    </div>
+                                    <!-- /.portfolio-thumb -->
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper III_column"
+                                     data-groups='["all", "business", "website", "logo"]'>
+                                    <div class="portfolio-thumb">
+                                        <div class=" prs_ms_scene_slider_img">
+                                            <img th:src="@{/assets/images/content/gallery/g8.jpg}"
+                                                 class="zoom image img-responsive" alt="service_img"/>
+                                        </div>
+                                    </div>
+                                    <!-- /.portfolio-thumb -->
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 portfolio-wrapper III_column"
+                                     data-groups='["all", "business", "website", "logo"]'>
+                                    <div class="portfolio-thumb">
+                                        <div class=" prs_ms_scene_slider_img">
+                                            <img th:src="@{/assets/images/content/gallery/g9.jpg}"
+                                                 class="zoom image img-responsive" alt="service_img"/>
+                                        </div>
+                                    </div>
+                                    <!-- /.portfolio-thumb -->
+                                </div>
+                            </div>
+                            <!--/#gridWrapper-->
+                        </div>
+                        <div class="portfolio-filter clearfix text-center">
+                            <ul class="list-inline" id="filter">
+                                <li><a class="active" data-group="all">1</a>
+                                </li>
+                                <li><a data-group="business">2</a>
+                                </li>
+                                <li><a data-group="website">3</a>
+                                </li>
+                                <li><a data-group="website">4</a>
+                                </li>
+                                <li><a data-group="website">5</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!--/.portfolio-area-->
+            </div>
+        </div>
+    </div>
+    <!-- prs gallery wrapper End -->
+</div>
+
+<!-- css -->
+<th:block th:fragment="css">
+
+</th:block>
+
+<!-- Scripts -->
+<th:block th:fragment="scripts">
+    <script th:inline="javascript" th:fragment="scripts">
+
+    </script>
+</th:block>
+</body>
+</html>
